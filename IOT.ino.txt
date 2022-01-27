@@ -1,0 +1,14 @@
+//declare variables
+int bulb1=10;//means that bulb is connected to pin10
+int bulb2=12;
+void setup
+{
+pinMode(bulb1,OUTPUT);
+pinMode(bulb2,OUTPUT);
+}
+void loop()
+
+{
+digitalWrite(bulb1,HIGH);
+
+}
